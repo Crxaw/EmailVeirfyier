@@ -96,7 +96,6 @@ def read_cookies_from_file(file_path):
             cookies.append({'.ROBLOSECURITY': cookie})
     return cookies
 
-# Main process
 cookies_list = read_cookies_from_file('cookies.txt')
 
 for cookie in cookies_list:
